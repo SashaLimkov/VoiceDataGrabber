@@ -17,5 +17,5 @@ class Command(BaseCommand):
             string = row[0].value
             if type(string) != str:
                 continue
-            if len(string) <= 255:
+            if len(string) <= 122:
                 create_original(string)
