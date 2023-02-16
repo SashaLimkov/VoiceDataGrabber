@@ -1,0 +1,5 @@
+django
+aiogram
+python-dotenv
+psycopg2-binary
+mutagen
